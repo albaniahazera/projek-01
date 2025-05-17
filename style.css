@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    background: url(background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#inputKodeMorse {
+    padding: 4px;
+}
+
+#output {
+    padding: 4px;
+}
+
+.title-info {
+    text-align: center;
+}
+
+.info {
+    background-color: aliceblue;
+    width: 230px;
+    padding: 1px;
+}
+
+li {
+    margin: 2px 18px;
+}
+
+.line {
+    padding: 0.3px;
+    background-color: black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 4px 0px;
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
