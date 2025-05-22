@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../icon.jpg" type="image/jpg">
+    <meta name="author" content="Albania hazera">
+    <title>Penampil File TXT Online Gratis - Baca & Tampilkan Dokumen Teks Cepat | Al hazera25</title>
+    <meta name="description" content="Penampil File TXT online gratis dari Al hazera25. Tampilkan, baca, dan kelola dokumen teks (.txt) dengan mudah di browser Anda. Cepat, aman, dan tanpa instalasi.">
+    <meta name="keywords" content="penampil file txt, baca txt online, viewer txt, teks viewer, buka file txt, dokumen teks, aplikasi txt online, gratis, tanpa instalasi, Al hazera25">
+    <link rel="canonical" href="https://info.alhazera25.my.id/penampil-txt-online">
+    <meta property="og:title" content="Penampil File TXT Online Gratis | Al hazera25">
+    <meta property="og:description" content="Tampilkan, baca, dan kelola dokumen teks (.txt) dengan mudah di browser Anda. Cepat, aman, dan tanpa instalasi.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://info.alhazera25.my.id/penampil-txt-online">
+    <meta property="og:image" content="https://info.alhazera25.my.id/thumbnail-txt-viewer.jpg"> <meta property="og:site_name" content="Al hazera25">
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:locale:alternate" content="en_US">
+</head>
+<body>
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="loading-spinner"></div>
+        <p>Memuat...</p>
+    </div>
+
+    <div class="main-layout">
+        <div class="column left-column">
+            <h2>Cara Penggunaan</h2>
+            <p>1. <strong>Pilih File TXT:</strong> Klik tombol "Pilih file TXT" dan pilih file dengan ekstensi `.txt` dari perangkat Anda.</p>
+            <p>2. <strong>Tampilkan Konten:</strong> Setelah file dipilih, klik tombol "Tampilkan Teks".</p>
+            <p>3. <strong>Lihat Hasil:</strong> Konten dari file TXT Anda akan ditampilkan di area tengah, dengan setiap baris yang mengandung ':' akan diformat sebagai judul dan nilai.</p>
+            <p>4. <strong>Hapus Konten:</strong> Gunakan tombol "Hapus Konten & File" untuk membersihkan tampilan dan mereset pilihan file.</p>
+            <p><strong>Peringatan:</strong> Aplikasi ini hanya mendukung file teks biasa (.txt). File dengan format lain tidak akan dapat diproses.</p>
+
+            <h3>Tentang Teknologi Ini</h3>
+            <p>Aplikasi Penampil File TXT ini dibangun menggunakan teknologi web dasar: <strong>HTML</strong> untuk struktur konten, <strong>CSS</strong> untuk gaya dan tata letak, serta <strong>JavaScript</strong> untuk fungsionalitas membaca dan menampilkan file.</p>
+            <p>Tujuan utamanya adalah untuk menyediakan alat sederhana dan cepat untuk melihat isi file teks secara langsung di browser, tanpa perlu mengunduh atau menggunakan aplikasi desktop terpisah. Ini sangat berguna untuk melihat log, konfigurasi, chat wa yang diekspor, atau data teks sederhana lainnya.</p>
+        </div>
+
+        <div class="column center-column">
+            <div class="container">
+                <div class="container-1">
+                    <h1>Penampil File TXT</h1>
+                    <div class="container-2">
+                        <div class="container-3">
+                            <label for="fileInput" class="custom-file-upload">
+                                Pilih file TXT
+                                <input type="file" name="file" id="fileInput" accept=".txt" required>
+                                <span id="fileNameDisplay" class="file-name-display">Tidak ada file dipilih</span>
+                            </label>
+                            <button onclick="tampilkanFile()">Tampilkan Teks</button>
+                            <button class="clear-button" onclick="bersihkanKontenDanFile()">Hapus Konten & File</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="output" class="output"></div>
+            </div>
+        </div>
+
+        <div class="column right-column">
+            <h2>Informasi Tambahan</h2>
+            <p>Selamat datang di Penampil File TXT! Alat ini dirancang untuk kemudahan dan efisiensi. Kami berupaya menjaga antarmuka tetap bersih dan mudah digunakan agar Anda dapat fokus pada konten file Anda.</p>
+            <h3>Fitur yang Mungkin Ditambahkan di Masa Mendatang:</h3>
+            <ul>
+                <li>Dukungan untuk format file lain (misalnya, CSV atau JSON sederhana).</li>
+                <li>Pencarian teks dalam file yang ditampilkan.</li>
+                <li>Opsi untuk mengunduh konten yang diformat.</li>
+                <li>Pengaturan tema (terang/gelap).</li>
+            </ul>
+            <p>Jika Anda memiliki saran atau menemukan masalah, silakan hubungi kami.</p>
+            <a href="https://alhazera25.my.id" target="_blank"><p style="text-align: center; color: blue;">@Al hazera25</p></a>
+            <p>Dibuat dengan bantuan AI Gemini 2.5 Flash</p>
+            <p style="text-align: center; margin-top: 20px;">&copy; 2025 Alhazera25</p>
+        </div>
+    </div>
+
+    <button id="scrollToTopBtn" class="scroll-to-top-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
